@@ -85,6 +85,8 @@ def train_and_save_model(csv_path='dataset/fake_or_real_news.csv',
         )
         model.fit(X_train, y_train)
 
+        # sajeeb
+
 
         
         y_pred = model.predict(X_test)
